@@ -1,0 +1,89 @@
+---
+title: "12月23号笔记"
+author: "lifen"
+date: "2020/12/23"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,warning = F,fig.align = "center")
+```
+
+
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+  `r plot(1:10)`
+
+        plot (1:10)  ##四个空格键为插入代码
+
+ - `plot`--绘图函数
+
+
+ctr shift A  美化代码
+knitr::cable (a1)##向文档插入表格
+
+
+
+
+```{r }
+install.packages("kza")
+```
+
+
+```{r }
+
+```
+
+dev.off() 终止par的设置
+oldpar = par(...)
+
+par(oldpar)##恢复默认设置
+
+require(tinytex)
+install_tinytex()
+
+install_tinytex()
+
+
+####数据的预处理
+read.table()
+
+
+
+```{r }
+
+```
+
+
+```{r }
+
+```
+
+
+```{r }
+
+```
+
+
+```{r }
+
+```
+
+```{r }
+
+```
+
+```{r }
+
+```
+
+```{r }
+
+```
+
+
+
+
+
